@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 ---
 
-## Join Our Lab
+## 
 
 We welcome motivated students and researchers who are interested in immunology, B-cell development, V(D)J recombination, antibody diversification, and related areas to join our lab.
 
