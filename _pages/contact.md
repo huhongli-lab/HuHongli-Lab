@@ -6,7 +6,6 @@ nav: true
 nav_order: 7
 ---
 
-## 
 **Hongli Hu (胡弘历)**  
 Professor  
 University of Science and Technology of China (USTC)
