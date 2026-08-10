@@ -1,34 +1,44 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+nav: false
+nav_order: 1
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: hongli_hu.jpg
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Hongli Hu</strong>（胡弘历）</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+    <p>Professor</p>
+
+    <p>✉ huhongli@ustc.edu.cn</p>
+
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 6
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 个人简介
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+胡弘历，2012年本科毕业于南京农业大学，2018年博士毕业于中国科学院大学/上海生化细胞所（现中国科学院分子细胞科学卓越创新中心）。2019年1月于哈佛大学医学院/波士顿儿童医院进行博士后研究（合作导师 Frederick W. Alt院士），2021年4月升任哈佛大学医学院讲师。2025年6月加入中国科学技术大学生命科学与医学部，担任特任研究员/博士生导师，组建分子免疫学实验室。主要借助于免疫学和分子生物学知识，并整合基因蛋白组学、代谢组学和生物信息学等技术手段，聚焦于抗体基因重组的相关调控机制与外在联系，推动抗体和疫苗设计相关理论和策略的完善及治疗方案的提升。前期工作以共同第一作者/共同通讯作者身份发表于Nature （2021，2024），Nature Cell Biology (2018)，Hepatology (2017) 等杂志上。并荣获“哈佛大学华人学者生命科学研究奖”、“上海市优秀毕业生”等荣誉，并被选为博士生代表参加2018年“第68届德国林岛诺贝尔奖医学/生理学获得者大会”；曾获美国癌症研究所（CRI）欧文顿博士后基金资助，担任Frontiers, Fundamental Research等国际学术期刊审稿人。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+## 研究兴趣
+
+聚焦早期B细胞发育抗体基因重组过程中所涉及的各种调控机制以及外在联系，通过由内而外的内源性、微环境和外周等的机制和临床研究，推动抗体和疫苗相关理论的完善以及免疫疾病治疗方案的提升。详细描述（但不限于）如下：
+
+1）探究抗体基因重组过程中的顺式、反式调控机制；
+
+2）探究抗体基因重组过程中的微环境调控机制；
+
+3）抗体模型动物的设计与优化；
+
+4）肿瘤和自身免疫疾病的研究和新型靶点的筛选。
