@@ -34,7 +34,8 @@ His lab focuses on the regulation of antibody diversity and genomic instability,
 ## Research Interests
 
 Our research will focus on the regulatory networks governing early B cell development, addressing key scientific questions such as chromatin spatial conformational changes and the regulation of loop extrusion. We aim to elucidate the mechanisms by which cis- and trans-regulatory elements, transcription factors, and the microenvironment contribute to the generation of antibody diversity, as well as their applicability in human disease. This work will provide theoretical support for vaccine design and antibody engineering research. Additionally, we will further explore the therapeutic targets and intervention strategies for diseases related to aberrant antibody gene recombination, such as autoimmune disorders.
-# Explore the cis- and trans-regulatory mechanisms during the antibody gene recombination process;
-# Explore the microenvironmental regulatory mechanisms during the antibody gene recombination process;
-# Optimization of antibody model animals, vaccine design, and antibody engineering;
-# Research on tumors, autoimmune diseases and new targets screening.
+
+1) Explore the cis- and trans-regulatory mechanisms during the antibody gene recombination process;
+2) Explore the microenvironmental regulatory mechanisms during the antibody gene recombination process;
+3) Optimization of antibody model animals, vaccine design, and antibody engineering;
+4) Research on tumors, autoimmune diseases and new targets screening.
