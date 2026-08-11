@@ -10,9 +10,7 @@ profile:
   image: hongli_hu.jpg
   image_circular: true
   more_info: >
-    <p><strong>Hongli Hu</strong>（胡弘历）</p>
-
-    <p>Professor</p>
+    <p><strong>Prof. Hongli Hu</strong>（胡弘历）</p>
 
     <p>✉ huhongli@ustc.edu.cn</p>
 
