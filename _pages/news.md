@@ -6,8 +6,6 @@ nav: true
 nav_order: 5
 ---
 
-# News
-
 <ul class="news-list">
 {% for post in site.posts %}
   <li class="news-item">
