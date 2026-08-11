@@ -70,7 +70,7 @@ permalink: /people/
   <div class="lab-grid">
 
     <div class="lab-member">
-      <img src="/assets/img/" alt="Hongli Hu">
+      <img src="/assets/img/hongli_hu.jpg" alt="Hongli Hu">
       <div class="lab-name">Hongli Hu (胡弘历)</div>
       <div class="lab-role">Principal Investigator</div>
     </div>
@@ -78,53 +78,56 @@ permalink: /people/
   </div>
 </div>
 
-## Postdoctoral Research Fellow
+## Lab Manager
 
 <div class="lab-section">
   <div class="lab-grid">
 
     <div class="lab-member">
-      <img src="/assets/img/guangrui_chen.jpg" alt="Guangrui Chen">
-      <div class="lab-name">Guangrui Chen (陈广瑞)</div>
-      <div class="lab-role">Postdoctoral Research Fellow</div>
+      <img src="/assets/img/Fang_Li.jpg" alt="Fang Li">
+      <div class="lab-name">Fang Li (李放)</div>
+      <div class="lab-role">Lab Manager</div>
     </div>
 
   </div>
 </div>
 
-## Research Assistants
+## Doctoral Students
 
 <div class="lab-section">
   <div class="lab-grid">
-
-    <div class="lab-member">
-      <img src="/assets/img/qiaolan_lv.jpg" alt="Qiaolan Lv">
-      <div class="lab-name">Qiaolan Lv (吕樵岚)</div>
-      <div class="lab-role">Research Assistant</div>
+    
+   <div class="lab-member">
+      <img src="/assets/img/Yujie_Kang.jpg" alt="Yujie Kang">
+      <div class="lab-name">Yujie Kang (康玉洁)</div>
+      <div class="lab-role">Doctoral Students</div>
     </div>
-
-    <div class="lab-member">
-      <img src="/assets/img/chonggui_jiang.jpg" alt="Chonggui Jiang">
-      <div class="lab-name">Chonggui Jiang (江崇贵)</div>
-      <div class="lab-role">Research Assistant</div>
-    </div>
-
-    <div class="lab-member">
-      <img src="/assets/img/pan_cui.jpg" alt="Pan Cui">
-      <div class="lab-name">Pan Cui (崔盼)</div>
-      <div class="lab-role">Research Assistant</div>
-    </div>
-
-    <div class="lab-member">
-      <img src="/assets/img/shaoyu_liu.jpg" alt="Shaoyu Liu">
-      <div class="lab-name">Shaoyu Liu (刘邵宇)</div>
-      <div class="lab-role">Research Assistant</div>
-    </div>
-
-  </div>
-</div>
 
 ## Master Students
+
+   <div class="lab-member">
+      <img src="/assets/img/Feifan_Yao.jpg" alt="Feifan Yao">
+      <div class="lab-name">Feifan Yao (姚飞凡)</div>
+      <div class="lab-role">Master Students</div>
+    </div>
+
+ <div class="lab-member">
+      <img src="/assets/img/Chenxi_Yi.jpg" alt="Chenxi Yi">
+      <div class="lab-name">Chenxi Yi (易晨曦)</div>
+      <div class="lab-role">Master Students</div>
+    </div>
+
+ <div class="lab-member">
+      <img src="/assets/img/Jinqi_Huang.jpg" alt="Jinqi Huang">
+      <div class="lab-name">Jinqi Huang (黄锦祺)</div>
+      <div class="lab-role">Master Students</div>
+    </div>
+
+
+  </div>
+</div>
+
+## Undergraduate Students
 
 <div class="lab-section">
   <div class="lab-grid">
@@ -137,3 +140,6 @@ permalink: /people/
 
   </div>
 </div>
+
+
+## Alumni
