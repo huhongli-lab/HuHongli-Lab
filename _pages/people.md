@@ -114,7 +114,7 @@ permalink: /people/
     </div>
 
    <div class="lab-member">
-      <img src="/assets/img/chenxi_yi.jpg" alt="Chenxi Yi">
+      <img src="/assets/img/chenxin_yi.jpg" alt="Chenxi Yi">
       <div class="lab-name">Chenxi Yi (易晨曦)</div>
       <div class="lab-role">Master Student@2026 </div>
     </div>
