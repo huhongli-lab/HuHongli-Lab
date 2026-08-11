@@ -5,63 +5,67 @@
 </style> <link rel="stylesheet" href="/HuHongli-Lab/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/HuHongli-Lab/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/HuHongli-Lab/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://hongli-hu-vdj.github.io/HuHongli-Lab/projects/9_project/"> <script src="/HuHongli-Lab/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/HuHongli-Lab/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand hu-lab-navbar-logo" href="/HuHongli-Lab/" aria-label="Hu Lab Home"> <img src="/HuHongli-Lab/assets/img/hu-lab-logo.png" alt="Hu Lab"> </a> <style>
-  /* Hu Lab navbar */
-  #navbar .container {
-    min-height: 108px;
-    display: flex;
-    align-items: center;
-  }
+        /* =========================================
+           Hu Lab Navbar
+           ========================================= */
 
-  /* Hu Lab logo */
-  .Hu-lab-navbar-logo {
-    display: flex;
-    align-items: center;
-    margin-right: 36px;
-    flex-shrink: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+        #navbar .container {
+          min-height: 108px;
+          display: flex;
+          align-items: center;
+        }
 
-  .Hu-lab-navbar-logo img {
-    height: 90px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-  }
+        /* Hu Lab Logo */
+        .hu-lab-navbar-logo {
+          display: flex;
+          align-items: center;
+          margin-right: 36px;
+          flex-shrink: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+        }
 
-  /* Navigation text */
-  #navbar .nav-link {
-    font-size: 17px;
-  }
+        .hu-lab-navbar-logo img {
+          height: 90px;
+          width: auto;
+          max-width: none;
+          object-fit: contain;
+          display: block;
+        }
 
-  /* Vertically center navigation */
-  #navbar .navbar-collapse {
-    align-items: center;
-  }
+        /* Navigation text */
+        #navbar .nav-link {
+          font-size: 17px;
+        }
 
-  #navbar .navbar-nav {
-    align-items: center;
-  }
+        /* Vertically center navigation */
+        #navbar .navbar-collapse {
+          align-items: center;
+        }
 
-  /* Mobile */
-  @media (max-width: 768px) {
-    #navbar .container {
-      min-height: 72px;
-    }
+        #navbar .navbar-nav {
+          align-items: center;
+        }
 
-    .Hu-lab-navbar-logo {
-      margin-right: 15px;
-    }
+        /* Mobile */
+        @media (max-width: 768px) {
+          #navbar .container {
+            min-height: 72px;
+          }
 
-    .Hu-lab-navbar-logo img {
-      height: 58px;
-    }
+          .hu-lab-navbar-logo {
+            margin-right: 15px;
+          }
 
-    #navbar .nav-link {
-      font-size: 16px;
-    }
-  }
-</style> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/people/">Lab Members </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/News/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/join/">Join Us </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">project 9</h1> <p class="post-description">another project with an image 🎉</p> </header> <article> <p>Every project has a beautiful feature showcase page. It’s easy to include images in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.</p> <p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+          .hu-lab-navbar-logo img {
+            height: 58px;
+          }
+
+          #navbar .nav-link {
+            font-size: 16px;
+          }
+        }
+      </style> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/">Home </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/people/">Lab Members </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/News/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/join/">Join Us </a> </li> <li class="nav-item "> <a class="nav-link" href="/HuHongli-Lab/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link"> ctrl k <i class="fa-solid fa-magnifying-glass"></i> </span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">project 9</h1> <p class="post-description">another project with an image 🎉</p> </header> <article> <p>Every project has a beautiful feature showcase page. It’s easy to include images in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.</p> <p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: page
 title: project
 description: a project with a background image
