@@ -8,12 +8,4 @@ related_posts: false
 **Hu lab in USTC is established!**
 **Congratulations !!!**
 
----
-layout: post
-date: 2025-08-01 
-inline: true
-related_posts: false
----
 
-**Welcome Qiaolan Lv to Hu lab as a Research Assistant canidate !**
-**Welcome !!!**
