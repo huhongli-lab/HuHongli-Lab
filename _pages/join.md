@@ -15,7 +15,7 @@ We welcome inquiries from:
 - Postdoctoral researchers
 - Graduate students
 - Undergraduate students
-- Research assistants
+
 
 ### Contact
 
