@@ -130,8 +130,8 @@ nav_order: 7
 
 
 ## Undergraduate Students
-2023  Dongqiang Zhang (张东强）
-2023  Davis （菲尔代维斯.哈力木拉提）
+2023  Dongqiang Zhang (张东强）  
+2023  Davis （菲尔代维斯.哈力木拉提）  
 2024  Songfan Luo (罗淞璠）
 
 
