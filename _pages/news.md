@@ -7,11 +7,16 @@ nav_order: 5
 ---
 
 <ul class="news-list">
-{% for post in site.posts %}
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+
+{% for item in sorted_news %}
   <li class="news-item">
-    <span class="news-date">{{ post.date | date: "%b %d, %Y" }}</span>
+    <span class="news-date">
+      {{ item.date | date: "%b %d, %Y" }}
+    </span>
+
     <div class="news-content">
-      {{ post.content }}
+      {{ item.content }}
     </div>
   </li>
 {% endfor %}
