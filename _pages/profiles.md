@@ -10,6 +10,64 @@ nav_order: 7
 ---
 
 
+<style>
+.lab-section {
+  margin-top: 2.2rem;
+  margin-bottom: 2.8rem;
+}
+
+.lab-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+  align-items: flex-start;
+}
+
+.lab-member {
+  width: 190px;
+  text-align: center;
+}
+
+.lab-member img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.lab-name {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.lab-role {
+  margin-top: 4px;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  opacity: 0.75;
+}
+
+@media (max-width: 700px) {
+  .lab-grid {
+    gap: 24px;
+  }
+
+  .lab-member {
+    width: 150px;
+  }
+
+  .lab-member img {
+    width: 145px;
+    height: 193px;
+  }
+}
+</style>
+
+
 ## Professor
 
 <div class="lab-section">
