@@ -1,73 +1,88 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+  >
     <div class="container">
 
       <!-- Hu Lab Logo -->
-      <a class="navbar-brand hu-lab-navbar-logo" href="{{ '/' | relative_url }}" aria-label="Hu Lab Home">
-        <img src="{{ '/assets/img/hu-lab-logo.png' | relative_url }}" alt="Hu Lab">
+      <a
+        class="navbar-brand hu-lab-navbar-logo"
+        href="{{ '/' | relative_url }}"
+        aria-label="Hu Lab Home"
+      >
+        <img
+          src="{{ '/assets/img/hu-lab-logo.png' | relative_url }}"
+          alt="Hu Lab"
+        >
       </a>
 
-      <!-- Hu Lab Logo Style -->
-  <!-- Hu Lab Logo Style -->
-<style>
-  /* Hu Lab navbar */
-  #navbar .container {
-    min-height: 108px;
-    display: flex;
-    align-items: center;
-  }
+      <!-- Hu Lab Logo + Navbar Style -->
+      <style>
+        /* =========================================
+           Hu Lab Navbar
+           ========================================= */
 
-  /* Hu Lab logo */
-  .Hu-lab-navbar-logo {
-    display: flex;
-    align-items: center;
-    margin-right: 36px;
-    flex-shrink: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+        #navbar .container {
+          min-height: 108px;
+          display: flex;
+          align-items: center;
+        }
 
-  .Hu-lab-navbar-logo img {
-    height: 90px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-  }
+        /* Hu Lab Logo */
+        .hu-lab-navbar-logo {
+          display: flex;
+          align-items: center;
+          margin-right: 36px;
+          flex-shrink: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+        }
 
-  /* Navigation text */
-  #navbar .nav-link {
-    font-size: 17px;
-  }
+        .hu-lab-navbar-logo img {
+          height: 90px;
+          width: auto;
+          max-width: none;
+          object-fit: contain;
+          display: block;
+        }
 
-  /* Vertically center navigation */
-  #navbar .navbar-collapse {
-    align-items: center;
-  }
+        /* Navigation text */
+        #navbar .nav-link {
+          font-size: 17px;
+        }
 
-  #navbar .navbar-nav {
-    align-items: center;
-  }
+        /* Vertically center navigation */
+        #navbar .navbar-collapse {
+          align-items: center;
+        }
 
-  /* Mobile */
-  @media (max-width: 768px) {
-    #navbar .container {
-      min-height: 72px;
-    }
+        #navbar .navbar-nav {
+          align-items: center;
+        }
 
-    .Hu-lab-navbar-logo {
-      margin-right: 15px;
-    }
+        /* Mobile */
+        @media (max-width: 768px) {
+          #navbar .container {
+            min-height: 72px;
+          }
 
-    .Hu-lab-navbar-logo img {
-      height: 58px;
-    }
+          .hu-lab-navbar-logo {
+            margin-right: 15px;
+          }
 
-    #navbar .nav-link {
-      font-size: 16px;
-    }
-  }
-</style>
+          .hu-lab-navbar-logo img {
+            height: 58px;
+          }
+
+          #navbar .nav-link {
+            font-size: 16px;
+          }
+        }
+      </style>
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed navbar-toggler-main"
@@ -83,33 +98,44 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
+      <!-- Navbar Menu -->
       <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
         <ul class="navbar-nav navbar-menu-list flex-nowrap">
+
+          <!-- Find Home Page Title -->
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+            {% endif %}
           {% endfor %}
 
-          <!-- About -->
+          <!-- Home -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              {{- about_title -}}
+
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
           </li>
 
-          <!-- Other pages -->
+          <!-- Other Pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
+
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+
               {% if p.dropdown %}
+
                 {% assign has_active_child = false %}
+
                 {% for child in p.children %}
                   {% if page.title == child.title %}
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
+
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
                   <a
                     class="nav-link dropdown-toggle"
@@ -120,77 +146,132 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {{- p.title -}}
+
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+                  <div
+                    class="dropdown-menu dropdown-menu-right"
+                    aria-labelledby="navbarDropdown"
+                  >
+
                     {% for child in p.children %}
+
                       {% if child.title == 'divider' %}
+
                         <div class="dropdown-divider"></div>
+
                       {% else %}
+
                         <a
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
                           {{- child.title -}}
                         </a>
+
                       {% endif %}
+
                     {% endfor %}
+
                   </div>
                 </li>
+
               {% else %}
+
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
+
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+
                   {%- if p.permalink contains '://' -%}
+
                     {%- assign url = p.permalink -%}
+
                   {%- elsif p.permalink contains '/blog/' -%}
+
                     {%- assign url = '/blog/' -%}
+
                   {%- else -%}
+
                     {%- assign url = p.url -%}
+
                   {%- endif %}
+
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    {{- p.title -}}
+
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
+
                 </li>
+
               {% endif %}
+
             {% endif %}
           {% endfor %}
 
+          <!-- Search -->
           {% if site.search_enabled %}
-            <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" type="button" title="Search" aria-label="Open search">
-                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+              <button
+                id="search-toggle"
+                type="button"
+                title="Search"
+                aria-label="Open search"
+              >
+                <span class="nav-link">
+                  ctrl k
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
               </button>
             </li>
           {% endif %}
 
+          <!-- Dark / Light Mode -->
           {% if site.enable_darkmode %}
-            <!-- Toggle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
-                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
-                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
-                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+              <button
+                id="light-toggle"
+                type="button"
+                title="Change theme"
+                aria-label="Change color theme"
+              >
+                <i
+                  class="fa-half-sun-moon"
+                  id="light-toggle-system"
+                ></i>
+
+                <i
+                  class="fa-solid fa-moon"
+                  id="light-toggle-dark"
+                ></i>
+
+                <i
+                  class="fa-solid fa-sun"
+                  id="light-toggle-light"
+                ></i>
               </button>
             </li>
           {% endif %}
+
         </ul>
       </div>
+
     </div>
   </nav>
 
+  <!-- Scrolling Progress Bar -->
   {% if site.enable_progressbar %}
-    <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">
         <span class="progress-bar"></span>
       </div>
     </progress>
   {% endif %}
+
 </header>
