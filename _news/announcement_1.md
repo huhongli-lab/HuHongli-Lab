@@ -1,8 +1,16 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-06-06 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Hu lab in USTC is established!
+Congratulation !!!---
+layout: news
+title: "Our new paper got accepted!"
+date: 2026-08-11
+categories: news
+---
+Our latest research paper has been accepted into XXX journal.
+Congratulation to all team members!
