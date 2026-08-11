@@ -136,7 +136,7 @@ nav_order: 7
 
 
 ## Alumni
-2022  Hanhan Yang (杨翰瀚）
+2025-2026  Hanhan Yang (杨翰瀚） undergraduate student from USTC
 
       
 ---
