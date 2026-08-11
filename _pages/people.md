@@ -122,7 +122,7 @@ permalink: /people/
  <div class="lab-member">
       <img src="/assets/img/jinqi_huang.jpg" alt="Jinqi Huang">
       <div class="lab-name">Jinqi Huang (黄锦祺)</div>
-      <div class="lab-role">Master Students</div>
+      <div class="lab-role">Master Student@2026 </div>
     </div>
 
 
