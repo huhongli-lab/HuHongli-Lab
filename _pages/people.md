@@ -71,7 +71,7 @@ permalink: /people/
 
 
    <div class="lab-member">
-      <img src="/assets/img/hongli_hu.jpg" alt="Hongli Hu">
+      <img src="/assets/img/prof_pic.jpg" alt="Hongli Hu">
       <div class="lab-name">Hongli Hu (胡弘历)</div>
       <div class="lab-role">Principal Investigator</div>
     </div>
