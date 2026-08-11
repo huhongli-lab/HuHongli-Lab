@@ -15,7 +15,7 @@ nav_order: 7
 <div class="lab-section">
   <div class="lab-grid">
     <div class="lab-member">
-       <img src="/assets/img/prof_pic.jpg" alt="Hongli Hu">
+       <img src="{{ site.baseurl }}/assets/img/prof_pic.jpg" alt="Hongli Hu">
        <div class="lab-name">Hongli Hu (胡弘历)</div>
        <div class="lab-role">Principal Investigator</div>
     </div>
