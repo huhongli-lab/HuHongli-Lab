@@ -3,7 +3,7 @@ layout: page
 title: Igk V-to-J primary recombination
 description: Loop extrusion moves upstream Vks past Cer/Sis CTCF-binding element (CBEs)-based diffusion platform for short-range diffusional presentation to Jk1-bound RAG in the primary RC.
 img: assets/img/Igk_Vk_to_Jk_small.jpg
-importance: 3
+importance: 2
 category: work
 related_publications: false
 ---
