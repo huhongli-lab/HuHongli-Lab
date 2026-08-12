@@ -1,6 +1,6 @@
 ---
 layout: news
-title: " Yujie Kang comes to Hu lab!"
+title: "Welcome Yujie Kang comes to Hu lab!"
 date: 2025-12-12
 categories: news
 ---
