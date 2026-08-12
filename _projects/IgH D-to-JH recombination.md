@@ -2,16 +2,12 @@
 layout: page
 title: IgH D-to-JH recombination
 description: RAG orchestrates Igh V(D)J recombination upon capturing a JH-RSS within the JH-RSS-based recombination center (RC). JH-RSS orientation programmes RAG to scan upstream D-containing chromatin that is presented in a linear manner by cohesin-mediated loop extrusion (Exclude DQ52, which process JH-RC though short-range diffusion).
-img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-
-
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+   
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,12 +15,8 @@ related_publications: true
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Loop extrusion-mediated RAG scanning drives D-to-JH recombination. A.Loop extrusion-mediated D-to-JH recombination for D segments upstream of DQ52 and the V(D)J recombination centre. B. Model of short-range diffusion-mediated inversional joining of distal D segments.(From Fig.4 of Zhang et al., NRI 2022)
 </div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,5 +27,5 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    这里是视频的标题或描述。
+    Cohesin loop extrusion-mediated RAG scanning during IgH locus D to JH joining
 </div>
