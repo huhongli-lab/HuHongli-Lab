@@ -15,7 +15,7 @@ related_publications: false
     </div>
 </div>
 <div class="caption">
-    Loop extrusion-mediated RAG scanning drives D-to-JH recombination. A.Loop extrusion-mediated D-to-JH recombination for D segments upstream of DQ52 and the V(D)J recombination centre. B. Model of short-range diffusion-mediated inversional joining of distal D segments.(From Zhang et al., NRI 2022)
+    Loop extrusion-mediated RAG scanning drives D-to-JH recombination. A.Loop extrusion-mediated D-to-JH recombination for D segments upstream of DQ52 and the V(D)J recombination centre. B. Model of short-range diffusion-mediated inversional joining of distal D segments.
 </div>
 
 <div class="row">
