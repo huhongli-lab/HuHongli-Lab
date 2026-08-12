@@ -15,7 +15,7 @@ related_publications: false
     </div>
 </div>
 <div class="caption">
-    Loop extrusion-mediated RAG scanning drives D-to-JH recombination. A.Loop extrusion-mediated D-to-JH recombination for D segments upstream of DQ52 and the V(D)J recombination centre. B. Model of short-range diffusion-mediated inversional joining of distal D segments.(From Fig.4 of Zhang et al., NRI 2022)
+    Loop extrusion-mediated RAG scanning drives D-to-JH recombination. A.Loop extrusion-mediated D-to-JH recombination for D segments upstream of DQ52 and the V(D)J recombination centre. B. Model of short-range diffusion-mediated inversional joining of distal D segments.(From Zhang et al., NRI 2022)
 </div>
 
 <div class="row">
@@ -33,6 +33,6 @@ related_publications: false
 
 **References**
 
-1. Hu, H. et al. (2024). Cohesin loop extrusion mediates RAG scanning. *Nature*, 625, 123-130.
-2. Zhang, Y. et al. (2023). V(D)J recombination dynamics. *Cell*, 186, 456-470.
-3. Chen, X. et al. (2022). RAG chromatin scanning. *Science*, 378, 890-900.
+1. Li, X. et al. (2026). Linear RAG scanning mediates editing of Igκ variable region repertoire. *Nature*, 653(8115):870-878.
+2. Zhang, Y. et al. (2022). The role of chromatin loop extrusion in antibody diversification. *Nature Review Immunology*, 22(9):550-566.
+3. Zhang, Y. et al. (2019). The fundamental role of chromatin loop extrusion in physiological V(D)J recombination. *Nature*, 573(7775):600-604.
