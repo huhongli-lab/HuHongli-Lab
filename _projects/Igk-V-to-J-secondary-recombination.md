@@ -12,29 +12,23 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Igk_Vk_to_Jk.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Igk_Vk_to_Jk_secondary.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Working model for short-range diffusion-mediated primary Igk V(D)J recombination
+    One-loop scanning-based versus two-loop diffusion-based mechanisms for Igh and Igk V(D)J recombination
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video controls width="100%" class="img-fluid rounded z-depth-1">
-            <source src="{{ site.baseurl }}/assets/video/Igk-primary-deletional.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-       <div class="col-sm mt-3 mt-md-0">
-        <video controls width="100%" class="img-fluid rounded z-depth-1">
-            <source src="{{ site.baseurl }}/assets/video/Igk-primary-inversional.mp4" type="video/mp4">
+            <source src="{{ site.baseurl }}/assets/video/Igk-secondary.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 </div>
 <div class="caption">
-    Two-loop-based short-range diffusional mechanism during primary deletional (left) and inversional (right) Vk-to-Jk1 recombination
+    One-loop-based RAG chromatin scanning mechanism during secondary deletional Vk-to-Jk recombination after primary inversional Vk-to-Jk1 recombination
 </div>
 
 
