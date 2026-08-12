@@ -2,6 +2,7 @@
 layout: page
 title: IgH D-to-JH recombination
 description: RAG orchestrates Igh V(D)J recombination upon capturing a JH-RSS within the JH-RSS-based recombination center (RC). JH-RSS orientation programmes RAG to scan upstream D-containing chromatin that is presented in a linear manner by cohesin-mediated loop extrusion (Exclude DQ52, which process JH-RC though short-range diffusion).
+img: assets/img/D_TO_JH_Join_small.jpg
 importance: 1
 category: work
 related_publications: false
