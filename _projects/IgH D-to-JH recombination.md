@@ -4,7 +4,7 @@ title: IgH D-to-JH recombination
 description: RAG orchestrates Igh V(D)J recombination upon capturing a JH-RSS within the JH-RSS-based recombination center (RC). JH-RSS orientation programmes RAG to scan upstream D-containing chromatin that is presented in a linear manner by cohesin-mediated loop extrusion (Exclude DQ52, which process JH-RC though short-range diffusion).
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
    
@@ -29,3 +29,10 @@ related_publications: true
 <div class="caption">
     Cohesin loop extrusion-mediated RAG scanning during IgH locus D to JH joining
 </div>
+
+
+**References**
+
+1. Hu, H. et al. (2024). Cohesin loop extrusion mediates RAG scanning. *Nature*, 625, 123-130.
+2. Zhang, Y. et al. (2023). V(D)J recombination dynamics. *Cell*, 186, 456-470.
+3. Chen, X. et al. (2022). RAG chromatin scanning. *Science*, 378, 890-900.
