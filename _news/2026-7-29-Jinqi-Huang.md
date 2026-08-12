@@ -1,6 +1,6 @@
 ---
 layout: news
-title: " Welcome Jinqin Huang comes to Hu lab!"
+title: " Welcome Jinqi Huang comes to Hu lab!"
 date: 2026-07-29
 categories: news
 ---
