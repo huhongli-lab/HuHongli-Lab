@@ -3,7 +3,7 @@ layout: page
 title: Igk V-to-J secondary recombination
 description: RAG scanning from secondary VkJk1-based RCs extends linearly across the Vk locus in primary pre-B cell populations.
 img: assets/img/Igk_Vk_to_Jk_small.jpg
-importance: 4
+importance: 1
 category: work
 related_publications: false
 ---
