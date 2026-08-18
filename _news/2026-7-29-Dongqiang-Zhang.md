@@ -1,7 +1,7 @@
 ---
 layout: news
 title: " Welcome Dongqiang Zhang comes to Hu lab!"
-date: 2026-07-29
+date: 2026-06-29
 categories: news
 ---
 
