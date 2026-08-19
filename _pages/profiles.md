@@ -130,13 +130,13 @@ nav_order: 7
 
 
 ## Undergraduate Students
-2023  Dongqiang Zhang (张东强）  
-2023  Davis （菲尔代维斯.哈力木拉提）  
-2024  Songfan Luo (罗淞璠）
+Class 2023  Dongqiang Zhang (张东强）  
+Class 2023  Davis （菲尔代维斯.哈力木拉提）  
+Class 2024  Songfan Luo (罗淞璠）
 
 
 ## Alumni
-2025-2026  Hanhan Yang (杨翰瀚） undergraduate student from USTC
+2025-2026  Hanhan Yang (杨翰瀚） Class 2022 undergraduate student from USTC
 
       
 ---
